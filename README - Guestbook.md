@@ -14,13 +14,17 @@ GuestbookKLN is a web application developed using laravel.
 - ** Admin Panel
 	- Login Page
 	- Admin page (to edit password)
+	    - Users menu -> users -> update password
 	- Logout
-	- List table Guestbook
-	- Add Guest Book
-	- Edit Guest Book
-	- Delete Guest Book (record on database must still exist after deleted, use special fields to flag the deleted or active guestbook)
+	    - Header / Top Menu, beside the home menu
+	- Guestbook
+	    - List table Guestbook
+	    - Add Guest Book
+	    - Edit Guest Book
+	    - Delete Guest Book (record on database must still exist after deleted, use special fields to flag the deleted or active guestbook)
 	- Grab Province and City from External API to database
 		- Menu location Admin Panel -> Location -> Province / City -> List -> Click Button Import
+		- In this process, a check is made on the code and name, if it is registered it is not imported
 		
 - ** Front Page
 
